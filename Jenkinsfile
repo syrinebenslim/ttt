@@ -58,8 +58,7 @@ pipeline {
                                       sh 'mvn -Dtest=Junit test'
                                   }
                               }
-                               }
-                                                            }
+                              
 
 
 
