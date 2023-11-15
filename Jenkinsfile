@@ -35,7 +35,7 @@ pipeline {
                }
                 stage('Docker Image') {
                                   steps {
-                                      sh 'sudo docker build -t syrinebenslim-5nids2-g2 .'
+                                      sh ' docker build -t syrinebenslim-5nids2-g2 .'
                                   }
                       }
 
