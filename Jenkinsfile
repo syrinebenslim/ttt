@@ -54,7 +54,13 @@ pipeline {
                                   }
                       }
                     
-                             
+                             stage('Prometheus And Grafana'){
+                            steps {
+
+                                sh "docker start prometheus"
+                        	    sh "docker start grafana"
+                        		}
+                        	}
     
 
 
